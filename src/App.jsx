@@ -10,6 +10,7 @@ function App() {
 	return (
 		<div className="">
 			{/* <Navbar /> */}
+			<h1>Hotel Booking App</h1>
 			<BrowserRouter>
 				<Routes>
 					<Route path="/" element={<Login />} />
